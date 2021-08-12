@@ -170,6 +170,7 @@ nav a:hover {
 .widget_title {
     margin-top: 30px;
     margin-bottom: 20px;
+    
 }
 
 .widget_title_text {
@@ -286,7 +287,8 @@ footer {
 .fm_1, .fm_2, .fm_3 {
     flex: 1;
     color: #FFFFFF;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
 }
 .fm_1 {
     background-color: #39aae1;
@@ -302,6 +304,7 @@ footer {
 
 .footer_area {
     display: flex;
+    margin: 5px;
    
 }
 
@@ -335,4 +338,38 @@ footer {
     object-fit: fill;
     margin-right: 10px;
     margin-top: 25px;
+}
+
+.copy {
+    display: flex;
+    border-top: 1px solid #636466;
+}
+
+.copy p {
+    color: #636466;
+    flex: 1;
+}
+
+.copy a {
+    text-decoration: none;
+}
+
+.latest_post {
+    margin-right: 10px;
+}
+
+.footer_post {
+   
+    text-align: justify;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+
+.data_post {
+    
+    color: #0079c7;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 1px;
 }
